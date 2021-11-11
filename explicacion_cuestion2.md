@@ -29,5 +29,5 @@ Para crear el segundo cuestionario, he usado un switch case o según, lo cual me
 
 USO DE FOR:
 
-Por último, he creado un bucle el cual suma el número 1 a cualquier número que el usuario escriba, para eso a la variable i la cual tiene un valor de 1, se le suma la variable x, la cual tiene el valor que nosotros decidimos darle. Por último muestro la variable suma la cual es el total de la suma entra i y x.
+Por último, he creado un bucle el cual suma el número 1 a cualquier número que el usuario escriba, para eso a la variable i la cual tiene un valor de 1, se le suma la variable x, la cual tiene el valor que nosotros decidimos darle. Por último muestro la variable suma la cual es el total de la suma entre i y x.
 
