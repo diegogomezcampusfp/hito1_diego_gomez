@@ -3,7 +3,9 @@ Proceso cuestion_2
 	//Cuestionario con IF
 	
 	Definir respuesta, respuesta2, respuesta3, respuesta4 Como Caracter; //Definición de variables.
-	Escribir "Escribe 1 si quieres acceder a las preguntas"; //Esta pregunta inicia o cancela el cuestionario.
+	
+	//Esta pregunta inicia o cancela el cuestionario.
+	Escribir "Escribe 1 si quieres acceder a las preguntas"; 
 	Leer respuesta;
 	
 	
@@ -12,7 +14,8 @@ Proceso cuestion_2
 		leer respuesta;
 	FinMientras
 	
-	Si respuesta="1" Entonces//Este IF será el mismo que utilizaré para realizar las preguntas del cuestionario.
+	//Este IF será el mismo que utilizaré para realizar las preguntas del cuestionario.
+	Si respuesta="1" Entonces 
 		Escribir "Has accedido al cuestionario";
 	Finsi
 	
@@ -22,14 +25,14 @@ Proceso cuestion_2
 	Si respuesta2="1914" Entonces
 		Escribir "Es correcto";
 	FinSi
-	
-	Mientras respuesta2<>"1914" hacer //Utilizo un While para no permitir respuestas diferentes a la que yo indico.
+	//Utilizo un While para no permitir respuestas diferentes a la que yo indico.
+	Mientras respuesta2<>"1914" hacer 
 		Escribir "Es incorrecto";
 		leer respuesta2;
 	Finmientras
 	
-	
-	Repetir //Utilizo el do while para repetir la pregunta hasta que se responda con mi respuesta elegida.
+	//Utilizo el do while para repetir la pregunta hasta que se responda con mi respuesta elegida.
+	Repetir 
         Escribir "¿Cuantas provincias tiene España?";
         Leer respuesta3;
         Si respuesta3 <> "50" Entonces
@@ -93,7 +96,8 @@ Proceso cuestion_2
 	Escribir "¿Cuantos números sumarás?";
 	leer total;
 	
-	Para i<-1 hasta total hacer//Por último voy a utilizar for para sumar el número 1 a cualquier número
+	//Por último voy a utilizar for para sumar el número 1 a cualquier número
+	Para i<-1 hasta total hacer
 		Escribir "A que número le quiere sumar un",i;
 		leer x;
 		suma<-i+x;
