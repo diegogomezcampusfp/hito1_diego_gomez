@@ -21,13 +21,13 @@ Al igual que antes usé un while para repetir la pregunta, aquí sucede lo mismo
 
 USO DE IF ELSE:
 
-En la última pregunta del cuestionario, a diferencia de las demás, no tengo la necesidad de hacerte repetir la pregunta, ya que su respuesta es una opinión, es decir, no puedo juzgarla como si fuera un dato de tipo lógico (boolean), por lo que permito tanto el sí como cualquier otra. Para poder hacer esto, uso dos escribir, uno dirigido a la respuesta si y otro a la respuesta que el usuario quiera poner.
+En la última pregunta del cuestionario, a diferencia de las demás, no tengo la necesidad de hacerte repetir la pregunta, ya que su respuesta es una opinión, es decir, no puedo juzgarla como si fuera un dato de tipo lógico (booleano), por lo que permito tanto el sí como cualquier otra. Para poder hacer esto, uso dos escribir, uno dirigido a la respuesta si y otro a la respuesta que el usuario quiera poner.
 
 USO DE SWITCH CASE:
 
-Para crear el segundo cuestionario, he usado un switch case o según, lo cual me parece más elegante y funcional que un conjunto de if, ya que se hace mucho más simple de utilizar y fácil de entender. Establezco la variable resp1 como entero, ya que la forma de acceder al cuestionario es seleccionar 1 o 2 para acceder a las preguntas, las demás variables las cuales pertenecen a los casos son de tipo caracter, ya que las respuestás usan carácteres.
+Para crear el segundo cuestionario, he usado un switch case o según, lo cual me parece más elegante y funcional que un conjunto de if, ya que se hace mucho más simple de utilizar y fácil de entender. Establezco la variable resp1 como entero, ya que la forma de acceder al cuestionario es seleccionar 1 o 2 para acceder a las preguntas, las demás variables las cuales pertenecen a los casos son de tipo caracter, ya que las respuestas usan caracteres.
 
 USO DE FOR:
 
-Por último, he creado un bucle el cual suma el número 1 a cualquier número que el usuario escriba, para eso a la variable i la cual tiene un valor de 1, se le suma la variable x, la cual tiene el valor que nosotros decidimos darle. Por último muestro la variable suma la cual es el total de la suma entre i y x.
+Por último, he creado un bucle el cual suma el número 1 a cualquier número que el usuario escriba, para eso a la variable i la cual tiene un valor de 1, se le suma la variable x, la cual tiene el valor que nosotros decidimos darle. Por último muestro la variable suma la cual es el total de la suma entra i y x.
 
