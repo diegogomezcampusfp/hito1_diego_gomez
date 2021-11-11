@@ -55,7 +55,7 @@ Proceso cuestion_2
 	
 	Definir resp1 Como Entero; //En el caso de esta variable, debo establecerla como entero para poder usarla en en el switch case
 	Definir resp2, resp3, resp4 Como Caracter;
-	Escribir "Escribe 1 o 2 para seleccionar una de las 2 preguntas";
+	Escribir "Escribe 1 o 2 para acceder a las preguntas";
 	Leer resp1;
 	
 	Segun resp1 Hacer
