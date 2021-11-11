@@ -2,7 +2,7 @@ Proceso cuestion_2
 	
 	//Cuestionario con IF
 	
-	Definir respuesta, respuesta2, respuesta3, respuesta4 Como Caracter; //Definición de variables.
+	Definir respuesta, respuesta2, respuesta3, respuesta4 Como Caracter; //DefiniciÃ³n de variables.
 	Escribir "Escribe 1 si quieres acceder a las preguntas"; //Esta pregunta inicia o cancela el cuestionario.
 	Leer respuesta;
 	
@@ -12,11 +12,11 @@ Proceso cuestion_2
 		leer respuesta;
 	FinMientras
 	
-	Si respuesta="1" Entonces //Este IF será el mismo que utilizaré para realizar las preguntas del cuestionario.
+	Si respuesta="1" Entonces//Este IF serÃ¡ el mismo que utilizarÃ© para realizar las preguntas del cuestionario.
 		Escribir "Has accedido al cuestionario";
 	Finsi
 	
-	Escribir "Cuando comenzó la primera guerra mundial?";
+	Escribir "Cuando comenzÃ³ la primera guerra mundial?";
 	Leer respuesta2;
 	
 	Si respuesta2="1914" Entonces
@@ -30,7 +30,7 @@ Proceso cuestion_2
 	
 	
 	Repetir //Utilizo el do while para repetir la pregunta hasta que se responda con mi respuesta elegida.
-        Escribir "¿Cuantas provincias tiene España?";
+        Escribir "Â¿Cuantas provincias tiene EspaÃ±a?";
         Leer respuesta3;
         Si respuesta3 <> "50" Entonces
 		Escribir "Clave incorrecta";
@@ -38,11 +38,11 @@ Proceso cuestion_2
     Hasta Que respuesta3="50"
 	Escribir "Es correcto";
 	
-	Escribir "Útlima pregunta, ¿has disfrutado de las preguntas?";
+	Escribir "Ãštlima pregunta, Â¿has disfrutado de las preguntas?";
 	Leer respuesta4;
 	
 	Si respuesta4="Si" Entonces
-		Escribir "Felicidades, has acabado la cuestión";
+		Escribir "Felicidades, has acabado la cuestiÃ³n";
 	SiNo //Utilizo un IF Else ya que la respuesta a esta pregunta no es obligatoriamente la que yo escojo
 	Escribir "Gracias de todas formas";
 	Finsi
@@ -52,12 +52,12 @@ Proceso cuestion_2
 	
 	Definir resp1 Como Entero; //En el caso de esta variable, debo establecerla como entero para poder usarla en en el switch case
 	Definir resp2, resp3, resp4 Como Caracter;
-	Escribir "Escribe un número del 1 al 3 para escoger una pregunta";
+	Escribir "Escribe un nÃºmero del 1 al 3 para escoger una pregunta";
 	Leer resp1;
 	
 	Segun resp1 Hacer
 		1:
-			Escribir "¿En que año empezó la primera guerra mundial?";
+			Escribir "Â¿En que aÃ±o empezÃ³ la primera guerra mundial?";
 			Leer resp2;
 			Si resp2="1914" Entonces
 				Escribir "Es correcto";
@@ -72,7 +72,7 @@ Proceso cuestion_2
 		Finsi
 		 
 		2: 
-			Escribir "¿Cuantas provincias tiene España?";
+			Escribir "Â¿Cuantas provincias tiene EspaÃ±a?";
 			Leer resp3;
 			Si resp3="50" Entonces
 				Escribir "Es correcto";
@@ -80,7 +80,7 @@ Proceso cuestion_2
 				Escribir "Lo siento, es incorrecto";
 			Finsi
 		De otro modo: 
-			Escribir "Útlima pregunta, ¿has disfrutado de las preguntas?";
+			Escribir "Ãštlima pregunta, Â¿has disfrutado de las preguntas?";
 			Leer resp4;
 			Si resp4="Si" Entonces
 				Escribir "Gracias, ha terminado";
@@ -90,11 +90,11 @@ Proceso cuestion_2
 	FinSegun
 	
 	Definir i,total,x,suma Como Real;
-	Escribir "¿Cuantos números sumarás?";
+	Escribir "Â¿Cuantos nÃºmeros sumarÃ¡s?";
 	leer total;
 	
-	Para i<-1 hasta total hacer//Por último voy a utilizar for para sumar el número 1 a cualquier número
-		Escribir "A que número le quiere sumar un",i;
+	Para i<-1 hasta total hacer//Por Ãºltimo voy a utilizar for para sumar el nÃºmero 1 a cualquier nÃºmero
+		Escribir "A que nÃºmero le quiere sumar un",i;
 		leer x;
 		suma<-i+x;
 	FinPara
