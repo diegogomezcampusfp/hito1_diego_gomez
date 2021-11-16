@@ -1,56 +1,70 @@
 Algoritmo hito1_diego_gomez
-//Declaración de variables
+	//DeclaraciÃ³n de variables
 	
 	Definir cara Como Caracter;
 	Definir ent Como Entero;
 	Definir dec como Real;
-	Definir boo como Caracter;
+	Definir cad como Cadena;
+	Definir boo Como Logico;
+	Definir boo2 Como Logico;
 	
-	//Uso de cadena y caracter
+	//Uso de caracter
 	
-		Escribir "Dime tu apellido";
+	Escribir "Dime tu apellido";
 	Leer cara;
 	
-		Escribir "Tiene ", Longitud(cara) , " carácteres";
-			Si (Longitud(cara)<6) Entonces
-				Escribir "Las dos primeras letras de tu apellido son: ";
-				Escribir subcadena(cara, 1, 2);
-			FinSi
-		Escribir "Tu apellido es ", cara;
+	Escribir "Tiene ", Longitud(cara) , " carÃ¡cteres";
+	Si (Longitud(cara)<6) Entonces
+		Escribir "Las dos primeras letras de tu apellido son: ";
+		Escribir subcadena(cara, 0, 1);
+	FinSi
+	Escribir "Tu apellido es ", cara;
 	
 	//Uso de entero y real
-		
-		Repetir
-		Escribir "Dame un número del 1 al 5";
+	
+	Repetir
+		Escribir "Dame un nÃºmero del 1 al 5";
 		Leer ent;
 	Hasta Que ent>=1 y ent<=5
-		Escribir "Es correcto"
-				
+	Escribir "Es correcto";
+	
 	Repetir
-		Escribir "Ahora escribe un número decimal entre 1 y 2";
+		Escribir "Ahora escribe un nÃºmero decimal entre 1 y 2";
 		Leer dec;
-			Si dec<1 y dec>2 Entonces
-				Escribir "Es correcto"
-			SiNo
-				Escribir "Es incorrecto"
-			FinSi
-					
-				Hasta Que dec>=1 y dec<=2
-			
-	//Uso de booleano
-			
-		Escribir "¿Quiere terminar la primera cuestión?";
-		Leer boo;
-			Si boo=="si" Entonces
-				Escribir "Gracias, ha terminado";
-			SiNo
-				Escribir "¿Quiere ver algo más?";
-		Leer boo;
-			Si boo=="no" Entonces
-				Escribir "Okey, nos vemos";
-			SiNo
-				Escribir "No hay nada más que ver";
-			FinSi
+		Si dec<1 y dec>2 Entonces
+			Escribir "Es correcto";
+		SiNo
+			Escribir "Es incorrecto";
 		FinSi
 		
+	Hasta Que dec>=1 y dec<=2
+	
+	//Uso de lÃ³gico
+	boo<-3<5;
+	Escribir "Â¿4 es menor que 7?, respuesta: ",boo;
+	
+	boo2<-3>5;
+	Escribir"Â¿2 es mayor que 4?, respuesta: ",boo2;
+	
+	
+	
+	//Uso de cadena
+	
+	Escribir "Â¿Quiere terminar la primera cuestiÃ³n?";
+	Leer cad;
+	Si cad=="si" Entonces
+		Escribir "Gracias, ha terminado";
+	SiNo
+		Escribir "Â¿Quiere ver algo mÃ¡s?";
+		Leer cad;
+		Si cad=="no" Entonces
+			Escribir "Okey, nos vemos";
+		SiNo
+			Escribir "No hay nada mÃ¡s que ver";
+		FinSi
+	FinSi
+	
+	
+	
+	
 FinAlgoritmo
