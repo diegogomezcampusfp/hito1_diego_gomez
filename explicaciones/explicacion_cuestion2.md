@@ -21,7 +21,7 @@ Al igual que antes usé un while para repetir la pregunta, aquí sucede lo mismo
 
 USO DE IF ELSE:
 
-En la última pregunta del cuestionario, a diferencia de las demás, no tengo la necesidad de hacerte repetir la pregunta, ya que su respuesta es una opinión, es decir, no puedo juzgarla como si fuera un dato de tipo lógico (booleano), por lo que permito tanto el sí como cualquier otra. Para poder hacer esto, uso dos escribir, uno dirigido a la respuesta si y otro a la respuesta que el usuario quiera poner.
+En la última pregunta del cuestionario, a diferencia de las demás, no tengo la necesidad de hacerte repetir la pregunta, ya que su respuesta es una opinión, es decir, no puedo juzgarla como si fuera una pregunta con respuestas concretas, por lo que permito tanto el sí como cualquier otra respuesta. Para poder hacer esto, uso dos escribir, uno dirigido a la respuesta si y otro a la respuesta que el usuario quiera poner.
 
 USO DE SWITCH CASE:
 
